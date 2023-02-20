@@ -1,0 +1,124 @@
+  .btn-iniciar {
+    padding: 24px;
+    
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 0;
+    top: 20rem;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+  /* White */
+  
+    color: #FFFFFF;
+  }
+
+  .btn-añadir {
+    padding: 24px;
+    
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 0;
+    top: 30rem;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+  /* White */
+  
+    color: #FFFFFF;
+  }
+
+  #my-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+  }
+  .fin {
+    color: red;
+    font-weight: bold;
+  }
+
+  .logo{
+    position: absolute;
+    left: 50px;
+    right: 37.43%;
+    top: 50px;
+    bottom: 0%;
+    width: 50px;
+    height:50px;
+  }
+
+  .canvas{
+    margin-left: 2.5rem;
+    width: 1024px;
+    height:800px
+  }
+
+  .botones-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left:42rem;
+  }
+
+  .subrayado {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: center;
+    visibility: hidden;
+  }
+  
+  .btn-juegoNuevo {
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 20px;
+    width: 12rem;
+    background: #0A3871;
+    color: #F3F5FC;
+    border-color: #0A3871;
+  }
+
+  .btn-desistir {
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 20px;
+    width: 12rem;
+    background: #F3F5FC;
+    color: #0A3871;
+    border-color: #0A3871;
+  }
+
+  .mensaje {
+    position: absolute;
+    color: green;
+    font-weight: bold;
+    bottom: 22rem;
+    left: 64rem;
+    font-size: 2rem;
+  }

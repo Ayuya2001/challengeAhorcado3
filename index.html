@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/añadir.css">
+  </head>
+  <body>
+    <img src="images/logo.svg" class="logo"> 
+      <div id="div-desaparece" class="botones-home">
+        <a href="#forca">
+          <!-- Buton/input -->
+          <input type="submit" class="btn-iniciar" value="Iniciar juego: Paises" id="iniciar-juego">
+        </a>
+        <button class="btn-añadir">Añadir palabra</button>
+      </div>
+      <div class="mensaje"></div>
+      <section class="textArea">
+        <div class="div-textAarea"><textarea class="input-text" name="" id="" cols="30" rows="10" placeholder="Ingrese una palabra" maxlength="8"></textarea></div>
+      </section>
+    
+      <section class="contenedor">
+        <span class="advertenciaCaracteres"> ❕ Max... de 8 letras</span>
+        <div class="botones">
+          <a href="#forca"><button class="btn-guardar">Guardar palabra</button></a>
+          <a href="index.html"><button class="btn-volver">Regresar</button></a>
+        </div>
+      </section>
+    <div id="div-aparece-ahorcado" class="canvas">
+      <!-- Canvas -->
+      <canvas id="forca" width="1200" height="860"></canvas>
+      <!-- HTML -->
+      <div class="subrayado">
+        <button class="btn-juegoNuevo">Iniciar nuevo juego</button>
+        <button class="btn-desistir">Desisitir</button>
+      </div>
+    </div>
+    <div id="my-modal">
+      <h2 class="fin">Fin del juego</h2>
+      <p class="fin">La palabra secreta era: <span id="palabra-secreta" class="fin"></span></p>
+      <button id="reset-btn">Reiniciar</button>
+    </div>
+<!-- JavaScript -->
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
